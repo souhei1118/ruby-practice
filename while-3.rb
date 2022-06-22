@@ -2,7 +2,7 @@
 
 # whileによるループ処理
 
-i = 19
+i = 99
 while i > 10
     puts i
     i -= 2
