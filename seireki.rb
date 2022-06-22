@@ -6,10 +6,10 @@
 # 昭和年 = 西暦年 - 1925
 # 出力：西暦XXXX年は、昭和YY年です。
 
-year = gets.to_i
+start = gets.to_i
 period = gets.to_i
 
-for seireki in year..(year + period - 1)
+for seireki in start..(start + period - 1)
   print "西暦#{seireki}年は、"
   syouwa = seireki - 1925
   puts "昭和#{syouwa}年です。"
