@@ -2,6 +2,6 @@
 
 # for in によるループ処理
 
-for i in 1..12
-    puts "#{i}月"
+for i in 1..100
+    puts "#{i}回"
 end
